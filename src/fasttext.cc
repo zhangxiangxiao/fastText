@@ -163,7 +163,7 @@ void FastText::test(std::istream& in, int32_t k) {
       nlabels += labels.size();
     }
   }
-  std::cout << std::setprecision(3);
+  std::cout << std::setprecision(5);
   std::cout << "P@" << k << ": " << precision / (k * nexamples) << std::endl;
   std::cout << "R@" << k << ": " << precision / nlabels << std::endl;
   std::cout << "Number of examples: " << nexamples << std::endl;

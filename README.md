@@ -2,6 +2,10 @@
 
 fastText is a library for efficient learning of word representations and sentence classification.
 
+## Changes from original Facebook Research release
+
+* Test output numerical precision is 5 digits instead of 3.
+
 ## Requirements
 
 **fastText** builds on modern Mac OS and Linux distributions.
